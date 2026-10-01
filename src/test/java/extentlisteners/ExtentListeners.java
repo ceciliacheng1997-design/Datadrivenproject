@@ -22,6 +22,9 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 
+import utilities.MonitoringMail;
+import utilities.TestConfig;
+
 
 public class ExtentListeners implements ITestListener, ISuiteListener {
 
@@ -110,15 +113,16 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 	}
 
 	String messageBody;
-
+/*
 
 	@Override
 	public void onFinish(ISuite suite) {
 		// TODO Auto-generated method stub
 		
 	}
+*/
 	
-/*	
+
 	public void onFinish(ISuite suite) {
 
 		
@@ -127,7 +131,7 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 		
 		try {
 			messageBody = "http://" + InetAddress.getLocalHost().getHostAddress()
-					+ ":8080/job/PlaywrightProject/Extent_20Reports/";
+					+ ":8080/job/DataModelProject/HTML_20Report/";
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -145,6 +149,6 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 		
 
 	}
-	*/
+	
 
 }

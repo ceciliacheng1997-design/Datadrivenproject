@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-30T14:34:56Z" name="Suite" finished-at="2026-09-30T14:35:22Z" duration-ms="25974">
+  <suite started-at="2026-10-01T13:11:37Z" name="Suite" finished-at="2026-10-01T13:11:55Z" duration-ms="17808">
     <groups>
     </groups>
-    <test started-at="2026-09-30T14:34:56Z" name="Test2" finished-at="2026-09-30T14:35:22Z" duration-ms="25974">
+    <test started-at="2026-10-01T13:11:37Z" name="Test2" finished-at="2026-10-01T13:11:55Z" duration-ms="17808">
       <class name="testcase.Bankmanager.Bankmanageraddcustomer4">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a]" started-at="2026-09-30T14:34:56Z" name="setup" finished-at="2026-09-30T14:34:56Z" duration-ms="110" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@4ff4357f]" started-at="2026-10-01T13:11:37Z" name="setup" finished-at="2026-10-01T13:11:37Z" duration-ms="79" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="AddManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a]" started-at="2026-09-30T14:34:58Z" name="AddManagerTest" data-provider="SuitesBank" finished-at="2026-09-30T14:35:09Z" duration-ms="11807" status="PASS">
+        <test-method signature="AddManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@4ff4357f]" started-at="2026-10-01T13:11:38Z" name="AddManagerTest" data-provider="SuitesBank" finished-at="2026-10-01T13:11:45Z" duration-ms="6939" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddManagerTest -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a]" started-at="2026-09-30T14:35:09Z" name="quit" finished-at="2026-09-30T14:35:10Z" duration-ms="593" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@4ff4357f]" started-at="2026-10-01T13:11:45Z" name="quit" finished-at="2026-10-01T13:11:45Z" duration-ms="467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method signature="AddManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a]" started-at="2026-09-30T14:35:10Z" name="AddManagerTest" data-provider="SuitesBank" finished-at="2026-09-30T14:35:14Z" duration-ms="3616" status="SKIP">
+        <test-method signature="AddManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@4ff4357f]" started-at="2026-10-01T13:11:45Z" name="AddManagerTest" data-provider="SuitesBank" finished-at="2026-10-01T13:11:49Z" duration-ms="3749" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -71,11 +71,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddManagerTest -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a]" started-at="2026-09-30T14:35:14Z" name="quit" finished-at="2026-09-30T14:35:14Z" duration-ms="481" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@4ff4357f]" started-at="2026-10-01T13:11:49Z" name="quit" finished-at="2026-10-01T13:11:50Z" duration-ms="462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method signature="AddManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a]" started-at="2026-09-30T14:35:14Z" name="AddManagerTest" data-provider="SuitesBank" finished-at="2026-09-30T14:35:22Z" duration-ms="7582" status="PASS">
+        <test-method signature="AddManagerTest(java.util.Hashtable)[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@4ff4357f]" started-at="2026-10-01T13:11:50Z" name="AddManagerTest" data-provider="SuitesBank" finished-at="2026-10-01T13:11:55Z" duration-ms="4842" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,7 +86,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddManagerTest -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@e8df99a]" started-at="2026-09-30T14:35:22Z" name="quit" finished-at="2026-09-30T14:35:22Z" duration-ms="533" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcase.Bankmanager.Bankmanageraddcustomer4@4ff4357f]" started-at="2026-10-01T13:11:55Z" name="quit" finished-at="2026-10-01T13:11:55Z" duration-ms="445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
